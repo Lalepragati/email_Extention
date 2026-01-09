@@ -14,7 +14,6 @@ public class EmailGeneratorService {
 
     @Value("${gemini.api.url}")
     private String geminiApiUrl;
-
     @Value("${gemini.api.key}")
     private String geminiapiKey;
     // constructor
