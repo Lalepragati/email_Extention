@@ -17,7 +17,6 @@ public class EmailGeneratorService {
 
     @Value("${gemini.api.key}")
     private String geminiapiKey;
-
     // constructor
     public EmailGeneratorService(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.build();
