@@ -1,6 +1,4 @@
 package com.email.email_writer_sb;
-
-
 import lombok.Data;
 @Data // helps to generate constructor getter setter
 public class EmailRequest {
