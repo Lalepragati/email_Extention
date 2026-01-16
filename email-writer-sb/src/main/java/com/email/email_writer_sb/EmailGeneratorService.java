@@ -32,7 +32,6 @@ public class EmailGeneratorService {
                         })
                 }
         );
-
         // 3. do req and get res need api key but not going to do
         /* api calling using webclient enables handle asynchronous user request
             >add reactive web dependency */
