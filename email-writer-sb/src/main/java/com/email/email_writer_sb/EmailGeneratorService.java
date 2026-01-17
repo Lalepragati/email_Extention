@@ -12,6 +12,7 @@ import java.util.Map;
 @Service   // help us calling api call
 public class EmailGeneratorService {
     private final WebClient webClient;
+    
     @Value("${gemini.api.url}")
     private String geminiApiUrl;
     @Value("${gemini.api.key}")
