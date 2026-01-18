@@ -58,7 +58,6 @@ public class EmailGeneratorService {
         prompt.append("\n Original email :\n").append(emailRequest.getEmailcontent());
         return prompt.toString();
     }
-
     public String extractResponseContent(String response) {
         try {
             ObjectMapper mapper = new ObjectMapper();
