@@ -6,7 +6,6 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import java.util.Map;
-
 @Service   // help us calling api call
 public class EmailGeneratorService {
     private final WebClient webClient;
