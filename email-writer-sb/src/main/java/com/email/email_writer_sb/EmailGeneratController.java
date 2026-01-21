@@ -2,7 +2,6 @@ package com.email.email_writer_sb;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 //Annotation
 @RestController
 @AllArgsConstructor
