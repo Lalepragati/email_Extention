@@ -19,6 +19,5 @@ public class EmailGeneratController {
        -> body -> raw data :-  need 2 thing 1. tone 2 . req body {emailContent}
        */
 
-
    }
 }
