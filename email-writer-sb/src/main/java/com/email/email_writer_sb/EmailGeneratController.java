@@ -3,8 +3,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 //Annotation
-@RestController
-    
+@RestController   
 @AllArgsConstructor
 @CrossOrigin(origins="*")
 @RequestMapping("/api/email")
