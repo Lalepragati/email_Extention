@@ -4,7 +4,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 //Annotation
 @RestController  
-    
 @AllArgsConstructor
 @CrossOrigin(origins="*")
 @RequestMapping("/api/email")
