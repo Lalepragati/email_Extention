@@ -10,4 +10,5 @@ public class EmailWriterSbApplication {
 		SpringApplication.run(EmailWriterSbApplication.class, args);
 	}
 
+
 }
