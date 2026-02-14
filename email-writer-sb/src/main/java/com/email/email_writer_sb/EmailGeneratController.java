@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/email")    
 public class EmailGeneratController {
     private final EmailGeneratorService emailGeneratorService;
+    
      @PostMapping("/generate")
       public ResponseEntity<String>generateEmail(@RequestBody EmailRequest emailRquest ){
         String response = emailGeneratorService.GenerateEmailReply(emailRquest);
