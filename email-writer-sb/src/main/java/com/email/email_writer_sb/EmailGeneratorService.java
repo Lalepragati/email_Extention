@@ -44,7 +44,6 @@ public class EmailGeneratorService {
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
-
         // 4. extract res & return
         /* extract the content and return  res  to api */
         return extractResponseContent(response);
