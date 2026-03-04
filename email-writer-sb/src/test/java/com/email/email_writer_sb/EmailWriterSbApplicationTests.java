@@ -7,5 +7,4 @@ class EmailWriterSbApplicationTests {
 	void contextLoads() {
 		
 	}
-
 }
